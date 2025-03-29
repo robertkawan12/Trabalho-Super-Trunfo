@@ -1,24 +1,18 @@
-# Super Trunfo - Comparação de Cartas
+# Super Trunfo - Nível Aventureiro
 
-Um jogo de comparação de cartas baseado em atributos de cidades brasileiras, desenvolvido em C.
+Implementação do jogo Super Trunfo com menu interativo para comparação de cartas de países.
 
-## Funcionalidades
+## Como compilar e executar
 
--   Cadastro de cartas com informações de cidades/estados
--   Cálculo automático de:
-    -   Densidade populacional (população/área)
-    -   PIB per capita (PIB/população)
--   Sistema de comparação entre duas cartas por atributos:
-    -   População (maior valor vence)
-    -   Área (maior valor vence)
-    -   PIB (maior valor vence)
-    -   Densidade (menor valor vence)
-    -   PIB per capita (maior valor vence)
-
-## Como Executar
-
-1. Clone o repositório:
+1. Compile o programa:
 
 ```bash
-git clone https://github.com/seu-usuario/super-trunfo.git
+gcc super_trunfo.c -o super_trunfo
 ```
+
+## Como Usar (Se o Compilador Nã Fucionar)
+
+Abra a Pasta Do Projeto Pelo CMD
+Execute o Comando `chcp 65001` ` gcc super_trunfo.c -o super_trunfo.exe -Wall -Wextra`
+
+Depois So Executar o Projeto Com `super_trunfo.exe `
